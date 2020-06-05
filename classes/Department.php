@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/classes/Store.php';
 
-class Repart extends Store  {
+class Department extends Store  {
     public $color
     public $taglia
     public $genre

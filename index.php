@@ -1,11 +1,12 @@
 
 <?php
-include_once __DIR__ . '/classes/Repart.php';
+include_once __DIR__ . '/classes/Department.php';
 
 
-$repart = new Repart('scarpe', 'maglie', 'pantaloni', 'red', 38);
+$department = new Department('scarpe', 'maglie', 'pantaloni', 'red', 38);
 
-echo $repart-getProduct();
+echo $department-getProduct();
 
-var_dump($repart);
+var_dump($department);
+
 
