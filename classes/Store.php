@@ -17,10 +17,13 @@
    }
  // methods
     
- public function getProduct(){
+ public function getProduct() {
     return $this->product1 . ' ' . $this->product2 . ' ' . $this->product3;
     }
  }
+ 
+ 
+
      
 
        
